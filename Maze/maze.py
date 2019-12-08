@@ -1,8 +1,4 @@
-# COMP9021 19T3 - Rachid Hamadi
-# Assignment 2 *** Due Sunday Week 10
-
-
-# IMPORT ANY REQUIRED MODULE
+# Made by Sheng Du
 
 class MazeError(Exception):
     def __init__(self, message):
