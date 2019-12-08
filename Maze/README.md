@@ -1,4 +1,5 @@
-A simple program that will 
+A simple program that will
+
 • Analyse the various characteristics of a maze, 
   represented by a particular coding of its basic con- stituents into numbers stored in a file whose contents is read, and
 • – either display those characteristics
