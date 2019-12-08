@@ -5,5 +5,5 @@ A simple program that will
   
 • – either display those characteristics
 
-  – or output some Latex code in a file, from which a pictorial representation of the maze can be
+    – or output some Latex code in a file, from which a pictorial representation of the maze can be
     produced.
