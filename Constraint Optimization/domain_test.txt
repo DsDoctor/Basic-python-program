@@ -1,0 +1,26 @@
+# test meetings with on binary constraint and the same domain constraints
+meeting, m1
+meeting, m2
+meeting, m3
+meeting, m4
+meeting, m5
+meeting, m6
+meeting, m7
+meeting, m8
+meeting, m9
+meeting, m10
+meeting, m11
+# test binary constraints
+
+# test domain constraints
+domain, m1, mon, hard
+domain, m2, 11am, hard
+domain, m3, tue 4pm - wed 9am, hard
+domain, m4, morning, hard
+domain, m5, afternoon, hard
+domain, m6, before tue, hard
+domain, m7, before 12pm, hard
+domain, m8, before tue 11am, hard
+domain, m9, after thu, hard
+domain, m10, after 3pm, hard
+domain, m11, after fri 2pm, hard

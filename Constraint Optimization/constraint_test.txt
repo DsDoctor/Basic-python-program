@@ -1,0 +1,20 @@
+# test meetings with on binary constraint and the same domain constraints
+#meeting, m11
+#meeting, m12
+#meeting, m21
+#meeting, m22
+#meeting, m31
+#meeting, m32
+meeting, m41
+meeting, m42
+# test binary constraints
+#constraint, m12 before m11
+#constraint, m21 same-day m22
+#constraint, m31 one-day-between m32
+constraint, m41 one-hour-between m42
+# test domain constraints
+#domain, m11, mon, hard
+#domain, m12, mon, hard
+#domain, m22, fri, hard
+#domain, m32, thu, hard
+domain, m42, mon 11am, hard
