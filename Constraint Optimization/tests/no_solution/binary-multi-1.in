@@ -1,0 +1,9 @@
+meeting, m1
+meeting, m2
+meeting, m3
+
+constraint, m1 one-day-between m2
+constraint, m2 one-day-between m3
+constraint, m1 before m2
+constraint, m2 before m3
+constraint, m1 same-day m3
