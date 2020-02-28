@@ -1,5 +1,6 @@
 # Made by Sheng Du
 
+
 class MazeError(Exception):
     def __init__(self, message):
         self.message = message
@@ -550,8 +551,6 @@ class Maze:
 
 
 if __name__ == "__main__":
-    # maze = Maze('labyrinth.txt')
-    # maze = Maze('BiggestMaze.txt')
-    maze = Maze('maze_1.txt')
+    maze = Maze('data/maze_1.txt')
     maze.analyse()
     maze.display()

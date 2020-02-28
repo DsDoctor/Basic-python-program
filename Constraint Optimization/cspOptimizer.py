@@ -351,7 +351,7 @@ def late_afternoon(time):
 # main function
 if __name__ == "__main__":
     # read the file and return a meeting csp(Problem)
-    csp_meeting = FileReader('input1.txt').read_file()
+    csp_meeting = FileReader('input3.txt').read_file()
     # update csp.domains
     csp_meeting.domains = Search_with_AC_from_Cost_CSP(csp_meeting).domains
     # begin search
