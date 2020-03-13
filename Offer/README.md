@@ -1,1 +1,1 @@
-# this part of programs corresponds to 《剑指offer》
+# This part of programs correspond to 《剑指offer》
