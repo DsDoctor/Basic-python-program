@@ -15,9 +15,9 @@ class TreeNode:
         self.right = None
 
 
-def q(pre_order, in_order):
+def q7(pre_order, in_order):
     """
-    >>> q([1,2,4,7,3,5,6,8],[4,7,2,1,5,3,8,6])
+    >>> q7([1,2,4,7,3,5,6,8], [4,7,2,1,5,3,8,6])
     1
     """
     if not len(pre_order):
@@ -26,8 +26,8 @@ def q(pre_order, in_order):
         return TreeNode(pre_order[0])
     index = in_order.index(pre_order[0])
     root = TreeNode(pre_order[0])
-    root.left = q(pre_order[1:index+1], in_order[:index])
-    root.right = q(pre_order[index+1:], in_order[index+1:])
+    root.left = q7(pre_order[1:index+1], in_order[:index])
+    root.right = q7(pre_order[index+1:], in_order[index+1:])
     return root
 
 

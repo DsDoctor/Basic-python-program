@@ -21,23 +21,23 @@ class LinkList:
                 node = node.next
 
 
-def q_1(node):
+def q6_1(node):
     """
-    >>> lis = [1,2,3,4]; node = LinkList(lis).start; q_1(node)
+    >>> lis = [1,2,3,4]; node = LinkList(lis).start; q6_1(node)
     4
     3
     2
     1
     """
     if node.next is not None:
-        q_1(node.next)
+        q6_1(node.next)
     print(node.value)
     return None
 
 
-def q_2(node):
+def q6_2(node):
     """
-    >>> lis = [1,2,3,4]; node = LinkList(lis).start; q_2(node)
+    >>> lis = [1,2,3,4]; node = LinkList(lis).start; q6_2(node)
     4,3,2,1
     """
     stack = []
