@@ -11,7 +11,5 @@
 """
 
 
-def print_progress(cur, tol):
-    print(f"\r|{''*(int((cur/tol)*20))}{' '*(20-int((cur/tol)*20))}| {cur/tol*100:.2f}%", end='')
-    if cur == tol:
-        print()
+def print_progress(cur, tol, _l=20):
+    print(f"\r|{''*(int((cur/tol)*_l))}{' '*(_l-int((cur/tol)*_l))}|{cur/tol*100:.2f}%", end='\n'if cur == tol else'')
