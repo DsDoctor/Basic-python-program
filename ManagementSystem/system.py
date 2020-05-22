@@ -119,7 +119,7 @@ def run():
         # 执行功能
         if cmd != 6:
             do(cmd)
-        else:
+        elif input('确认退出？ Y/N') == 'Y':
             break
     print('退出系统')
 
