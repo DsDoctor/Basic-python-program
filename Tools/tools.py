@@ -13,7 +13,7 @@ def print_progress(cur, tol, _l=20):
             print_progress(1, 1)
             print('next')
     """
-    print(f"\r|{''*(int((cur/tol)*_l))}{' '*(_l-int((cur/tol)*_l))}|{cur/tol*100:.2f}%", end='\n'if cur == tol else'')
+    print(f"\r|{''*(int((cur/tol)*_l))}{' '*(_l-int((cur/tol)*_l))}|{cur/tol*100:.4f}%", end='\n'if cur == tol else'')
 
 
 def get_lcs(s1, s2):
